@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #121212;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+.logo img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.logo span {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.actions .btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn.green {
+    background: #00c853;
+    color: white;
+}
+
+.btn.red {
+    background: #ff3d00;
+    color: white;
+}
+
+.controls {
+    padding: 15px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: #1e1e1e;
+    border-bottom: 1px solid #333;
+}
+
+.controls .btn {
+    padding: 6px 12px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clients-table {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #333;
+}
+
+th {
+    background: #2a2a2a;
+    font-weight: bold;
+}
+
+.status {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.status.online {
+    background: #00c853;
+    color: white;
+}
+
+.status.offline {
+    background: #ff3d00;
+    color: white;
+}
+
+.actions-btns button {
+    padding: 4px 8px;
+    margin: 0 2px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 11px;
+    color: #777;
+}

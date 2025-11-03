@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload.ee — Лучший файлобменник!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="icon.png" alt="Logo"> Upload.ee
+            <span>Лучший файлобменник!</span>
+        </div>
+        <div class="actions">
+            <button class="btn green">Подключено</button>
+            <button class="btn red">Выйти</button>
+        </div>
+    </div>
+
+    <div class="controls">
+        <span>Выбрано: <span id="selected-count">0</span></span>
+        <button id="build-btn" class="btn">Сбор</button>
+        <button id="run-btn" class="btn">Запустить</button>
+        <button id="download-btn" class="btn">Скачать</button>
+    </div>
+
+    <div class="clients-table">
+        <table>
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="select-all"></th>
+                    <th>КЛИЕНТ</th>
+                    <th>ПОСЛЕДНИЙ АРХИВ</th>
+                    <th>ПОСЛЕДНЕЕ ПОДКЛЮЧЕНИЕ</th>
+                    <th>СТАТУС</th>
+                    <th>ДЕЙСТВИЯ</th>
+                </tr>
+            </thead>
+            <tbody id="clients-list">
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        Develop by @ingorele
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
